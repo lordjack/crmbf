@@ -1,0 +1,56 @@
+.multifield
+{
+	 border: none;
+	 font-family: sans-serif,arial,verdana;
+	 font-size: 9pt;
+	 border-spacing: 0pt;
+}
+
+.multifield_header
+{
+	 font-size: 10pt;
+	 border-left: 1px solid white;
+	 border-top: 1px solid white;
+	 border-right: 1px solid gray;
+	 border-bottom: 1px solid gray;
+	 padding-top: 1px;
+	 background-color: #CCCCCC;
+	 -moz-user-select: none;
+	 cursor: default;
+}
+
+.tmultifield_over
+{
+    background-color:#FFFF88;
+}
+
+.multifield thead tr
+{
+    position:relative;
+    display: block;
+}
+
+.multifield td
+{
+    margin:1px;
+    padding: 1px;
+    height: 1px;
+    border-bottom:1px solid #EAE9E1;
+    cursor: pointer;
+}
+
+div.multifieldDiv
+{
+    border:1px solid #ACA899;
+    height: 200px;
+    width:400px;
+    background-color:#FFFFFF;
+}
+
+.tmultifield_scrolling
+{
+    display: block;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+}

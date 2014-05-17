@@ -1,0 +1,413 @@
+<menu>
+    <menuitem label='Cadastro'>
+        <menu>
+            <menuitem label='CRM'>
+                <menu>
+                    <menuitem label='CRM'>
+                        <icon>app/images/ico_transaction.png</icon>
+                        <action>CRMList</action>
+                    </menuitem>
+                    <menuitem label='Registro'>
+                        <icon>app/images/ico_transaction.png</icon>
+                        <action>RegistroList</action>
+                    </menuitem>
+                    <menuitem label='Tipo Registro'>
+                        <icon>app/images/ico_transaction.png</icon>
+                        <action>RegistroTipoFormList</action>
+                    </menuitem>
+                    <menuitem label='Tipo'>
+                        <icon>app/images/ico_transaction.png</icon>
+                        <action>TipoFormList</action>
+                    </menuitem>
+                    <menuitem label='Cidade'>
+                        <icon>app/images/ico_dbtable.png</icon>
+                        <action>CidadeFormList</action>
+                    </menuitem>
+                    <menuitem label='Cliente'>
+                        <icon>app/images/ico_dbtable.png</icon>
+                        <action>ClienteList</action>
+                    </menuitem>
+                    <menuitem label='Prioridade'>
+                        <icon>app/images/ico_dbtable.png</icon>
+                        <action>PrioridadeFormList</action>
+                    </menuitem>
+                    <menuitem label='Status'>
+                        <icon>app/images/ico_dbtable.png</icon>
+                        <action>StatusFormList</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            
+            <menuitem label='Objects'>
+                <menu>
+                    <menuitem label='Object Store'>
+                        <icon>app/images/ico_db_store.png</icon>
+                        <action>ObjectStoreView</action>
+                    </menuitem>
+                    <menuitem label='Object Load'>
+                        <icon>app/images/ico_db_load.png</icon>
+                        <action>ObjectLoadView</action>
+                    </menuitem>
+                    <menuitem label='Lazy Load'>
+                        <icon>app/images/ico_db_load.png</icon>
+                        <action>ObjectLazyView</action>
+                    </menuitem>
+                    <menuitem label='Object Update'>
+                        <icon>app/images/ico_db_update.png</icon>
+                        <action>ObjectUpdateView</action>
+                    </menuitem>
+                    <menuitem label='Transaction Logging'>
+                        <icon>app/images/ico_db_log.png</icon>
+                        <action>RegisterLogView</action>
+                    </menuitem>
+                    <menuitem label='Encapsulation'>
+                        <icon>app/images/ico_db_encapsul.png</icon>
+                        <action>EncapsulationView</action>
+                    </menuitem>
+                    <menuitem label='Object Delete'>
+                        <icon>app/images/ico_db_delete.png</icon>
+                        <action>ObjectDeleteView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Collections'>
+                <menu>
+                    <menuitem label='Criteria API'>
+                        <icon>app/images/ico_db_criteria.png</icon>
+                        <action>CriteriaView</action>
+                    </menuitem>
+                    <menuitem label='Collection count'>
+                        <icon>app/images/ico_db_count.png</icon>
+                        <action>CollectionCountView</action>
+                    </menuitem>
+                    <menuitem label='Collection load'>
+                        <icon>app/images/ico_db_load.png</icon>
+                        <action>CollectionLoadView</action>
+                    </menuitem>
+                    <menuitem label='Collection load properties'>
+                        <icon>app/images/ico_db_load.png</icon>
+                        <action>CollectionLoadPropertyView</action>
+                    </menuitem>
+                    <menuitem label='Collection update'>
+                        <icon>app/images/ico_db_update.png</icon>
+                        <action>CollectionUpdateView</action>
+                    </menuitem>
+                    <menuitem label='Collection delete'>
+                        <icon>app/images/ico_db_delete.png</icon>
+                        <action>CollectionDeleteView</action>
+                    </menuitem>
+                    <menuitem label='Collection simple count'>
+                        <icon>app/images/ico_db_count.png</icon>
+                        <action>CollectionSimpleCountView</action>
+                    </menuitem>
+                    <menuitem label='Collection simple load'>
+                        <icon>app/images/ico_db_load.png</icon>
+                        <action>CollectionSimpleLoadView</action>
+                    </menuitem>
+                    <menuitem label='Collection simple delete'>
+                        <icon>app/images/ico_db_delete.png</icon>
+                        <action>CollectionSimpleDeleteView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Relationships'>
+                <menu>
+                    <menuitem label='Object Association'>
+                        <icon>app/images/ico_db_association.png</icon>
+                        <action>AssociationView</action>
+                    </menuitem>
+                    <menuitem label='Object Composition'>
+                        <icon>app/images/ico_db_association.png</icon>
+                        <action>CompositionView</action>
+                    </menuitem>
+                    <menuitem label='Object Aggregation'>
+                        <icon>app/images/ico_db_association.png</icon>
+                        <action>AggregationView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem>
+            
+    <menuitem label='Presentation'>
+        <menu>
+            <menuitem label='Containers'>
+                <menu>
+                    <menuitem label='Table'>
+                        <icon>app/images/ico_table.png</icon>
+                        <action>ContainerTableView</action>
+                    </menuitem>
+                    <menuitem label='Panel'>
+                        <icon>app/images/ico_panel.png</icon>
+                        <action>ContainerPanelView</action>
+                    </menuitem>
+                    <menuitem label='Notebook'>
+                        <icon>app/images/ico_notebook.png</icon>
+                        <action>ContainerNotebookView</action>
+                    </menuitem>
+                    <menuitem label='Scroll'>
+                        <icon>app/images/ico_scroll.png</icon>
+                        <action>ContainerScrollView</action>
+                    </menuitem>
+                    <menuitem label='Frame'>
+                        <icon>app/images/ico_frame.png</icon>
+                        <action>ContainerFrameView</action>
+                    </menuitem>
+                    <menuitem label='Window'>
+                        <icon>app/images/ico_window.png</icon>
+                        <action>ContainerWindowView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Dialogs'>
+                <menu>
+                    <menuitem label='Information dialog'>
+                        <icon>app/images/ico_info.png</icon>
+                        <action>DialogInformationView</action>
+                    </menuitem>
+                    <menuitem label='Error dialog'>
+                        <icon>app/images/ico_error.png</icon>
+                        <action>DialogErrorView</action>
+                    </menuitem>
+                    <menuitem label='Question dialog'>
+                        <icon>app/images/ico_question.png</icon>
+                        <action>DialogQuestionView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Forms'>
+                <menu>
+                    <menuitem label='Quick Forms'>
+                        <icon>app/images/ico_form.png</icon>
+                        <action>FormQuickView</action>
+                    </menuitem>
+                    <menuitem label='Custom Forms'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>FormCustomView</action>
+                    </menuitem>
+                    <menuitem label='Decorated Forms'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>FormDecoratedView</action>
+                    </menuitem>
+                    <menuitem label='Reusable Forms'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>FormReusableControl</action>
+                    </menuitem>
+                    <menuitem label='Form validation'>
+                        <icon>app/images/ico_validate.png</icon>
+                        <action>FormValidationView</action>
+                    </menuitem>
+                    <menuitem label='Static selections'>
+                        <icon>app/images/ico_check.png</icon>
+                        <action>FormStaticSelectionView</action>
+                    </menuitem>
+                    <menuitem label='Manual database selections'>
+                        <icon>app/images/ico_radio.png</icon>
+                        <action>FormDBManualSelectionView</action>
+                    </menuitem>
+                    <menuitem label='Automatic database selections'>
+                        <icon>app/images/ico_dbcombo.png</icon>
+                        <action>FormDBAutoSelectionView</action>
+                    </menuitem>
+                    <menuitem label='Dynamic interactions'>
+                        <icon>app/images/ico_entry.png</icon>
+                        <action>FormInteractionsView</action>
+                    </menuitem>
+                    <menuitem label='Seek button'>
+                        <icon>app/images/ico_seek.png</icon>
+                        <action>FormSeekButtonView</action>
+                    </menuitem>
+                    <menuitem label='Multi field'>
+                        <icon>app/images/ico_multi.png</icon>
+                        <action>FormMultiFieldView</action>
+                    </menuitem>
+                    <menuitem label='Html Editor'>
+                        <icon>app/images/ico_html.png</icon>
+                        <action>FormHtmlEditorView</action>
+                    </menuitem>
+                    <menuitem label='Tree View'>
+                        <icon>app/images/ico_tree.png</icon>
+                        <action>FormTreeView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        
+            <menuitem label='Datagrid'>
+                <menu>
+                    <menuitem label='Quick Datagrids'>
+                        <icon>app/images/ico_datagrid.png</icon>
+                        <action>DatagridQuickView</action>
+                    </menuitem>
+                    <menuitem label='Custom Datagrids'>
+                        <icon>app/images/ico_custom_datagrid.png</icon>
+                        <action>DatagridCustomView</action>
+                    </menuitem>
+                    <menuitem label='Scrollable Datagrids'>
+                        <icon>app/images/ico_custom_datagrid.png</icon>
+                        <action>DatagridScrollView</action>
+                    </menuitem>
+                    <menuitem label='Datagrid column actions'>
+                        <icon>app/images/ico_gridcolumn.png</icon>
+                        <action>DatagridColumnActionsView</action>
+                    </menuitem>
+                    <menuitem label='Datagrid column transformers'>
+                        <icon>app/images/ico_gridcolumn.png</icon>
+                        <action>DatagridTransformView</action>
+                    </menuitem>
+                    <menuitem label='Datagrids with new Window'>
+                        <icon>app/images/ico_datagrid.png</icon>
+                        <action>DatagridWindowView</action>
+                    </menuitem>
+                    <menuitem label='Datagrids with Checkbutton'>
+                        <icon>app/images/ico_datagrid.png</icon>
+                        <action>DatagridCheckView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Designer'>
+                <menu>
+                    <menuitem label='Designed containers'>
+                        <icon>app/images/ico_notebook.png</icon>
+                        <action>DesignContainerView</action>
+                    </menuitem>
+                    <menuitem label='Designed form Elements'>
+                        <icon>app/images/ico_design_form.png</icon>
+                        <action>DesignFormView</action>
+                    </menuitem>
+                    <menuitem label='Designed datagrids'>
+                        <icon>app/images/ico_design_datagrid.png</icon>
+                        <action>DesignDataGridView</action>
+                    </menuitem>
+                    <menuitem label='Designed form and datagrid'>
+                        <icon>app/images/ico_design_datagrid.png</icon>
+                        <action>DesignFormDataGridView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Charts/Reports'>
+                <menu>
+                    <menuitem label='Tabular report'>
+                        <icon>app/images/ico_report.png</icon>
+                        <action>TabularReportView</action>
+                    </menuitem>
+                    <menuitem label='Line chart'>
+                        <icon>app/images/ico_chart_line.png</icon>
+                        <action>LineChartView</action>
+                    </menuitem>
+                    <menuitem label='Bar chart'>
+                        <icon>app/images/ico_chart_bar.png</icon>
+                        <action>BarChartView</action>
+                    </menuitem>
+                    <menuitem label='Pie chart'>
+                        <icon>app/images/ico_chart_pie.png</icon>
+                        <action>PieChartView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Web specific'>
+                <menu>
+                    <menuitem label='Template View basic'>
+                        <icon>app/images/ico_internet.png</icon>
+                        <action>TemplateViewBasicView</action>
+                    </menuitem>
+                    <menuitem label='Template View advanced'>
+                        <icon>app/images/ico_internet.png</icon>
+                        <action>TemplateViewAdvancedView</action>
+                    </menuitem>
+                    <menuitem label='Using jQuery plugins'>
+                        <icon>app/images/ico_jquery.png</icon>
+                        <action>JqueryGalleryView</action>
+                    </menuitem>
+                    <menuitem label='Creating new components'>
+                        <icon>app/images/ico_jquery.png</icon>
+                        <action>AccordionView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Organization'>
+        <menu>
+            <menuitem label='Standard controls'>
+                <menu>
+                    <menuitem label='Standard Form'>
+                        <icon>app/images/ico_form.png</icon>
+                        <action>StandardFormView</action>
+                    </menuitem>
+                    <menuitem label='Standard DataGrid'>
+                        <icon>app/images/ico_datagrid.png</icon>
+                        <action>StandardDataGridView</action>
+                    </menuitem>
+                    <menuitem label='Standard Form/DataGrid'>
+                        <icon>app/images/ico_table.png</icon>
+                        <action>StandardFormDataGridView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Manual controls'>
+                <menu>
+                    <menuitem label='Manual Form'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>CompleteFormView</action>
+                    </menuitem>
+                    <menuitem label='Manual DataGrid'>
+                        <icon>app/images/ico_custom_datagrid.png</icon>
+                        <action>CompleteDataGridView</action>
+                    </menuitem>
+                    <menuitem label='Manual Form/DataGrid'>
+                        <icon>app/images/ico_custom_datagrid.png</icon>
+                        <action>CompleteFormDataGridView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Complex views'>
+                <menu>
+                    <menuitem label='Complete customers datagrid'>
+                        <icon>app/images/ico_custom_datagrid.png</icon>
+                        <action>CustomerDataGridView</action>
+                    </menuitem>
+                    <menuitem label='Complete customers form'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>CustomerFormView</action>
+                    </menuitem>
+                    <menuitem label='Inline editing datagrid'>
+                        <icon>app/images/ico_inline_datagrid.png</icon>
+                        <action>InlineDataGridView</action>
+                    </menuitem>
+                    <menuitem label='Checkout form'>
+                        <icon>app/images/ico_checkout.png</icon>
+                        <action>CheckoutFormView</action>
+                    </menuitem>
+                    <menuitem label='Master/Detail forms'>
+                        <icon>app/images/ico_custom_form.png</icon>
+                        <action>ProjectList</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            
+            <menuitem label='Designed views'>
+                <menu>
+                    <menuitem label='Designed form'>
+                        <icon>app/images/ico_design_form.png</icon>
+                        <action>DesignedFormView</action>
+                    </menuitem>
+                    <menuitem label='Designed datagrid'>
+                        <icon>app/images/ico_design_datagrid.png</icon>
+                        <action>DesignedDataGridView</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
